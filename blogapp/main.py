@@ -1,5 +1,7 @@
-from app import app # import our Flask app
+from app import app, db
+import models
 import views
+import config
 
 
 if __name__ == '__main__':
